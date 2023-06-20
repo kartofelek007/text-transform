@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>domanart.pl</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+    <script src="app.js" type="module"></script>
+</head>
+<style>
+    div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+    }
+    textarea {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        min-height: 300px;
+        margin-bottom: 20px;
+        background: #efefef;
+    }
+</style>
+<body>
+    <div>
+        <textarea id="source" id="" cols="30" rows="10" placeholder="Source">lorem ipsum sit dolor</textarea>
+        <textarea id="dest" id="" cols="30" rows="10" placeholder="Dest"></textarea>
+    </div>
+
+    <button id="flip">flip</button>
+    <button id="mirror">mirror</button>
+    <button id="creepify">creepify</button>
+    <button id="bent">bent</button>
+    <button id="tiny">tiny</button>
+</body>
+</html>
